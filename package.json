@@ -2,9 +2,9 @@
   "name": "rocketseat-es6",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/main.js",
   "scripts": {
-    "dev": "babel ./main.js -o ./bundle.js -w"
+    "dev": "babel ./src/main.js -o ./www/js/bundle.js -w"
   },
   "repository": {
     "type": "git",
